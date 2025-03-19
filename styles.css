@@ -1,7 +1,11 @@
 body {
+    font-size:15px;
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
+    opacity: 1px;
+    
+
 }
 .container {
     max-width: 800px;
@@ -11,37 +15,109 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 h1,
 h2,
 h3 {
+    font-family: Playfair Display;
+    line-height: 3rem;
 }
 h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    opacity: 0.85;
 }
 h2 {
+    text-decoration: underline;
     margin-top: 20px;
+    line-height: 4rem;
+    opacity: 0.85;
 }
 h3 {
 }
 p {
+    text-indent:25px;
+    margin-left: 1px;
+    word-spacing: 0.3rem;
+    opacity: 0.75;
+
+}
+.uppercase{
+    text-transform: uppercase;
 }
 a {
 }
+
 a:hover {
+
+}
+.u{
+    opacity: 0.9;
+    letter-spacing: 0.5rem;
+    font-size: 17px;
 }
 blockquote {
-    background: #eee;
-    padding: 10px 20px;
-    border-left: 5px solid #0077cc;
+    background: #ede9e9;
+    padding: 20px 20px;
+    border-left: 5px solid #04026d;
     margin: 20px 0;
+    line-height:1.8rem;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.60;
+    font-style: italic;
+    font-size: 21px;
+}
+.bl{
+    font-style:italic ;
+    font-size: 21px;
+}
+.line{
+    text-decoration: line-through;
 }
 ul {
     padding-left: 20px;
 }
 pre {
-    background: #333;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
+        background: #333;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+        color: white;
+        line-height: 30px;
+        font-size: 16px;
+    }
 }
 .highlight {
+}
+.word-spacing{
+     opacity: 0.85;
+    word-spacing: 20px;
+}
+.s{
+    background-color: hsl(69, 100%, 50%);
+    line-height: 2;
+    
+}
+.osn{
+    opacity: 0.85;
+    line-height: 2rem;
+    
+}
+
+.sil{
+    
+    text-decoration: none;
+    color: blue;
+
+    
+}
+.ggg{
+    line-height: 1.8rem;
+
+}
+.tt{
+    opacity: 0.95;
+    line-height: 2rem;
+
 }
